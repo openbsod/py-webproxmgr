@@ -8,17 +8,18 @@ Dependencies
 
 ---------------
 
-set environment:
+Set environment:
 
-pip install virtualenv
-export PATH="/home/user/.local/bin:$PATH"
-virtualenv env
-pip install proxmoxer
-pip install proxmox-deploy
-pip install requests
-pip install paramiko
+.. code-block:: bash
 
----------------
+    $pip install virtualenv
+    $export PATH="/home/user/.local/bin:$PATH"
+    $virtualenv env
+    $pip install proxmoxer
+    $pip install proxmox-deploy
+    $pip install requests
+    $pip install paramiko
+
 
 * [proxmoxer](https://github.com/swayf/proxmoxer) as Proxmox API client
 * [proxmox-deploy](https://github.com/LordGaav/proxmox-deploy)
