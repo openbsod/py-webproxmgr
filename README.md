@@ -6,6 +6,7 @@ Dependencies:
 ------------
 * Proxmox VE 4.1
 * Python 2.7
+* [Flask](http://flask.pocoo.org/)
 
 Set environment:
 
