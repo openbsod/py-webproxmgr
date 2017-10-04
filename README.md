@@ -1,16 +1,14 @@
 # py-webproxmgr
 Web Proxmox API VE manager ( python flask mysql )
 
-Dependencies
+Dependencies:
+
 ------------
 * Proxmox VE 4.1
 * Python 2.7
 
----------------
-
 Set environment:
 
-.. code-block:: bash
     $pip install virtualenv
     $export PATH="/home/user/.local/bin:$PATH"
     $virtualenv env
