@@ -11,7 +11,6 @@ Dependencies
 Set environment:
 
 .. code-block:: bash
-
     $pip install virtualenv
     $export PATH="/home/user/.local/bin:$PATH"
     $virtualenv env
