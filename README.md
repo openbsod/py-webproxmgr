@@ -44,3 +44,10 @@ Deploy:
     - answer interactive questions
 
 -----------
+
+Install required packages with pip:
+
+    $sudo apt install default-libmysqlclient-dev
+    $pip install -r requirements.txt
+    
+------------
