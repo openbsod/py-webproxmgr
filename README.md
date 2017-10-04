@@ -6,6 +6,20 @@ Dependencies
 * Proxmox VE 4.1
 * Python 2.7
 
+---------------
+
+set environment:
+
+pip install virtualenv
+export PATH="/home/user/.local/bin:$PATH"
+virtualenv env
+pip install proxmoxer
+pip install proxmox-deploy
+pip install requests
+pip install paramiko
+
+---------------
+
 * [proxmoxer](https://github.com/swayf/proxmoxer) as Proxmox API client
 * [proxmox-deploy](https://github.com/LordGaav/proxmox-deploy)
 * `openssh-wrapper`_ for communicating with the Proxmox API and
